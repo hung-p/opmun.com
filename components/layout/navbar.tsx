@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "motion/react";
 import { Menu, X, Globe, Cpu } from "lucide-react";
+import Logo from "@/components/shared/logo";
 
 export function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -24,18 +25,7 @@ export function Navbar() {
           className="flex items-center gap-3 group cursor-pointer shrink-0"
           onClick={() => setIsMobileMenuOpen(false)}
         >
-          <motion.div
-            whileHover={{ rotate: 180, scale: 1.15 }}
-            transition={{ duration: 0.6, ease: "easeInOut" }}
-            className="w-8 h-8 rounded-full bg-gradient-to-tr from-primary to-secondary p-0.5 flex items-center justify-center shadow-[0_0_15px_rgba(0,229,255,0.4)]"
-          >
-            <div className="w-full h-full bg-[#111317] rounded-full flex items-center justify-center">
-              <svg aria-hidden="true" className="text-primary group-hover:text-white transition-colors duration-300" fill="none" height="16" viewBox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2.5" />
-                <rect fill="currentColor" height="2.5" width="20" x="2" y="11" />
-              </svg>
-            </div>
-          </motion.div>
+          <Logo className="w-8 h-8 text-white group-hover:rotate-180 transition-all duration-700 ease-in-out shrink-0" />
           
           <span className="text-2xl font-black tracking-tighter text-white font-headline group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-primary transition-all duration-300 leading-none">
             Opmun
