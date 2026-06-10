@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Navbar } from "@/components/layout/navbar";
 import { Hero } from "@/components/sections/hero";
 import { Problem } from "@/components/sections/problem";
@@ -8,6 +9,12 @@ import { Governance } from "@/components/sections/governance";
 import { Roadmap } from "@/components/sections/roadmap";
 import { CTA } from "@/components/sections/cta";
 import { Footer } from "@/components/layout/footer";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function Page() {
   return (

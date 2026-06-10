@@ -13,6 +13,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://opmun.com"),
   title: "Opmun | Language, Optimized.",
   description: "A language engineered for the modern mind. Built on logic, optimized for clarity, and sourced from the world.",
 };
