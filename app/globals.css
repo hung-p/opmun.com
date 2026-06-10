@@ -102,6 +102,25 @@
   --radius-lg: 0.25rem;
   --radius-xl: 0.5rem;
   --radius-full: 0.75rem;
+
+  --animate-radar-sweep: radar-sweep 4s ease-in-out infinite;
+
+  @keyframes radar-sweep {
+    0% {
+      top: 0%;
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
 }
 
 :root {
