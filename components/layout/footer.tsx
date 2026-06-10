@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="w-full px-8 py-12 flex flex-col md:flex-row justify-between items-center border-t border-[#3b494c]/20 bg-[#111317]">
+    <footer className="w-full px-4 sm:px-8 py-12 flex flex-col md:flex-row justify-between items-center border-t border-[#3b494c]/20 bg-[#111317]">
       <div className="flex flex-col md:flex-row items-center gap-12">
         <div className="flex items-center gap-2">
           <svg aria-hidden="true" className="text-white" fill="none" height="20" viewBox="0 0 24 24" width="20">

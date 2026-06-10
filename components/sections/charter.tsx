@@ -4,7 +4,7 @@ import { StaggerWrapper, FadeUpWrapper, MotionDiv } from "@/components/shared/an
 
 export function Charter() {
   return (
-    <section className="py-24 px-8 max-w-7xl mx-auto">
+    <section className="py-24 px-4 sm:px-8 max-w-7xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <StaggerWrapper className="lg:col-span-6">
           <FadeUpWrapper className="font-headline text-3xl md:text-4xl font-bold mb-8">The Core Specifications</FadeUpWrapper>
@@ -48,7 +48,7 @@ export function Charter() {
           </ul>
         </StaggerWrapper>
         <MotionDiv 
-          className="lg:col-span-6 aspect-square bg-surface-container-low relative overflow-hidden group rounded-2xl"
+          className="lg:col-span-6 aspect-square max-w-md md:max-w-xl lg:max-w-none mx-auto w-full bg-surface-container-low relative overflow-hidden group rounded-2xl"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, margin: "-100px" }}

@@ -4,13 +4,13 @@ import { MotionDiv } from "@/components/shared/animation-wrappers";
 
 export function CTA() {
   return (
-    <section className="py-40 px-8 text-center bg-background relative overflow-hidden flex items-center justify-center min-h-[80vh]">
+    <section className="py-40 px-4 sm:px-8 text-center bg-background relative overflow-hidden flex items-center justify-center min-h-[80vh]">
       <div className="absolute inset-0 z-0 opacity-60">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary-container/20 via-transparent to-transparent z-10"></div>
         <ParticleNetwork />
       </div>
       <MotionDiv 
-        className="relative z-10 max-w-4xl mx-auto glass-card p-12 md:p-20 rounded-3xl"
+        className="relative z-10 max-w-4xl mx-auto glass-card p-6 sm:p-12 md:p-20 rounded-3xl"
         initial={{ opacity: 0, scale: 0.95, y: 20 }}
         whileInView={{ opacity: 1, scale: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
@@ -23,7 +23,7 @@ export function CTA() {
         <p className="text-on-surface-variant text-lg md:text-xl mb-12 max-w-xl mx-auto font-light">
           Experience low-cognitive-load communication built for global workflows.
         </p>
-        <Link href="/playground" className="btn-primary-gradient text-on-primary-fixed font-label font-bold text-lg uppercase px-12 py-5 rounded-sm inline-block">
+        <Link href="#" className="inline-flex items-center justify-center btn-primary-gradient text-on-primary-fixed font-label font-bold text-lg uppercase px-12 py-5 rounded-sm">
           TRY THE OPMUN CORE SYSTEM
         </Link>
       </MotionDiv>

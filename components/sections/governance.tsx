@@ -4,7 +4,7 @@ import { StaggerWrapper, FadeUpWrapper } from "@/components/shared/animation-wra
 
 export function Governance() {
   return (
-    <section className="py-24 px-8 max-w-7xl mx-auto relative">
+    <section className="py-24 px-4 sm:px-8 max-w-7xl mx-auto relative">
       <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-secondary-container/5 rounded-full blur-[100px] pointer-events-none"></div>
       <StaggerWrapper className="relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
@@ -15,9 +15,9 @@ export function Governance() {
             </FadeUpWrapper>
           </div>
           <FadeUpWrapper>
-            <Link href="#" className="group btn-glass flex items-center justify-center gap-2 text-on-surface font-label font-bold text-xs uppercase px-6 py-3 rounded-sm transition-all duration-300">
+            <Link href="#" className="group btn-glass flex items-center justify-center gap-2 text-on-surface font-label font-bold text-xs uppercase px-6 py-3 rounded-sm">
               VIEW GITHUB REPOSITORY
-              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 group-hover:text-primary transition-all" />
+              <ArrowRight className="w-4 h-4 group-hover:translate-x-1 group-hover:text-primary transition-transform duration-300" />
             </Link>
           </FadeUpWrapper>
         </div>

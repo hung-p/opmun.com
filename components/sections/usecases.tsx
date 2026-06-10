@@ -4,7 +4,7 @@ import { StaggerWrapper, FadeUpWrapper } from "@/components/shared/animation-wra
 export function UseCases() {
   return (
     <section className="py-24 bg-surface-container-lowest">
-      <StaggerWrapper className="max-w-7xl mx-auto px-8">
+      <StaggerWrapper className="max-w-7xl mx-auto px-4 sm:px-8">
         <FadeUpWrapper className="text-center mb-16 max-w-2xl mx-auto">
           <h2 className="font-headline text-3xl md:text-4xl font-bold tracking-tight mb-4">Designed for the Real World</h2>
           <p className="text-on-surface-variant text-lg">
