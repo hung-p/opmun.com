@@ -1,5 +1,5 @@
 import { Globe2, Users2, PlaneTakeoff, MessageSquare } from "lucide-react";
-import { StaggerWrapper, FadeUpWrapper } from "@/components/animation-wrappers";
+import { StaggerWrapper, FadeUpWrapper } from "@/components/shared/animation-wrappers";
 
 export function UseCases() {
   return (

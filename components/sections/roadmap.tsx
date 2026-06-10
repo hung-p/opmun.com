@@ -1,5 +1,5 @@
 import { Hexagon, Database, Rocket } from "lucide-react";
-import { MotionH2, MotionDiv } from "@/components/animation-wrappers";
+import { MotionH2, MotionDiv } from "@/components/shared/animation-wrappers";
 
 export function Roadmap() {
   return (

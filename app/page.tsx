@@ -1,17 +1,17 @@
-import { Navbar } from "@/components/navbar";
-import { Hero } from "@/components/hero";
-import { Problem } from "@/components/problem";
-import { ROI } from "@/components/roi";
-import { Charter } from "@/components/charter";
-import { UseCases } from "@/components/usecases";
-import { Governance } from "@/components/governance";
-import { Roadmap } from "@/components/roadmap";
-import { CTA } from "@/components/cta";
-import { Footer } from "@/components/footer";
+import { Navbar } from "@/components/layout/navbar";
+import { Hero } from "@/components/sections/hero";
+import { Problem } from "@/components/sections/problem";
+import { ROI } from "@/components/sections/roi";
+import { Charter } from "@/components/sections/charter";
+import { UseCases } from "@/components/sections/usecases";
+import { Governance } from "@/components/sections/governance";
+import { Roadmap } from "@/components/sections/roadmap";
+import { CTA } from "@/components/sections/cta";
+import { Footer } from "@/components/layout/footer";
 
 export default function Page() {
   return (
-    <main className="pt-24">
+    <main>
       <Navbar />
       <Hero />
       <Problem />

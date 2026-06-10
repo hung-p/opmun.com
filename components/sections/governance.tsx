@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, Layers, FileCode2, TestTube2, GitBranch, Globe2 } from "lucide-react";
-import { StaggerWrapper, FadeUpWrapper } from "@/components/animation-wrappers";
+import { StaggerWrapper, FadeUpWrapper } from "@/components/shared/animation-wrappers";
 
 export function Governance() {
   return (

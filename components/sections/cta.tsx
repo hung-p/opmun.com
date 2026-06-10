@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { ParticleNetwork } from "@/components/particle-network";
-import { MotionDiv } from "@/components/animation-wrappers";
+import { ParticleNetwork } from "@/components/shared/particle-network";
+import { MotionDiv } from "@/components/shared/animation-wrappers";
 
 export function CTA() {
   return (

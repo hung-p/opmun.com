@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { ParticleNetwork } from "@/components/particle-network";
-import { MotionDiv } from "@/components/animation-wrappers";
+import { ParticleNetwork } from "@/components/shared/particle-network";
+import { MotionDiv } from "@/components/shared/animation-wrappers";
 
 export function Hero() {
   return (

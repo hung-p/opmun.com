@@ -1,5 +1,5 @@
 import { AlertCircle, BookX, Brain } from "lucide-react";
-import { StaggerWrapper, FadeUpWrapper } from "@/components/animation-wrappers";
+import { StaggerWrapper, FadeUpWrapper } from "@/components/shared/animation-wrappers";
 
 export function Problem() {
   return (

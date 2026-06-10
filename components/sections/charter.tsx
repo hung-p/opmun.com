@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Zap, Volume2, Gauge, Heart } from "lucide-react";
-import { StaggerWrapper, FadeUpWrapper, MotionDiv } from "@/components/animation-wrappers";
+import { StaggerWrapper, FadeUpWrapper, MotionDiv } from "@/components/shared/animation-wrappers";
 
 export function Charter() {
   return (
@@ -47,16 +47,16 @@ export function Charter() {
             </FadeUpWrapper>
           </ul>
         </StaggerWrapper>
-        <MotionDiv
+        <MotionDiv 
           className="lg:col-span-6 aspect-square bg-surface-container-low relative overflow-hidden group rounded-2xl"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
         >
-          <Image
-            alt="high-tech satellite view of earth at night showing interconnected glowing city lights and digital data stream overlays in bright cyan"
-            className="w-full h-full object-cover opacity-40 grayscale group-hover:grayscale-0 transition-all duration-700"
+          <Image 
+            alt="high-tech satellite view of earth at night showing interconnected glowing city lights and digital data stream overlays in bright cyan" 
+            className="w-full h-full object-cover opacity-40 grayscale group-hover:grayscale-0 transition-all duration-700" 
             src="/images/home/earth_night.jpg"
             fill
             referrerPolicy="no-referrer"
