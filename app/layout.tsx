@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
+import { ScrollToTop } from "@/components/layout/scroll-to-top";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -33,6 +34,7 @@ export default function RootLayout({
         suppressHydrationWarning
       >
         {children}
+        <ScrollToTop />
       </body>
     </html>
   );
